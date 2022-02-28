@@ -1,0 +1,398 @@
+.content-description {
+    padding: 10px;
+    min-width: 100px;
+    max-width: 300px;
+    min-height: none;
+    max-height: 50px;
+    display: block;
+    text-align: center;
+    overflow-x: scroll;
+
+}
+.etiqueta{
+    width: 200px;
+    height: 100px;
+    background-color: #2af598;
+    padding: 20px;
+    padding-left: 40px;
+    line-height: 50px;
+    border-radius: 10px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+.contenedor_cajas {
+    margin: 10px;
+    float: left;
+}
+.h1-check{
+   font-size: 20px;
+   color: rgb(71, 96, 150);
+}
+
+
+/* scrolll */
+.content-description::-webkit-scrollbar{
+    height: 7px;
+
+}
+.content-description::-webkit-scrollbar-thumb{
+    height: 9px;
+    background-color: rgb(255, 218, 9);
+    border-radius: 5px;
+}
+.c-clientes::-webkit-scrollbar{
+    width: 7px;
+}
+.c-clientes::-webkit-scrollbar-thumb{
+    width: 9px;
+    background-color: rgb(255, 218, 9);
+    border-radius: 5px;
+}
+.des::-webkit-scrollbar{
+    width: 7px;
+}
+.des::-webkit-scrollbar-thumb{
+    width: 9px;
+    background-color: rgb(255, 218, 9);
+    border-radius: 5px;
+}
+
+
+body::-webkit-scrollbar{
+    background-color: white;
+    width: 15px;
+    height: 12px;
+}
+body::-webkit-scrollbar-thumb{
+    margin-right: 5px;
+    background-image: linear-gradient(120deg, #17567e 0%, #96c9e6 100%);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+.cajas {
+    /* min-height: 100px;*/
+    margin: 2px;
+    float: left;
+
+}
+
+.btn-caja {
+    margin-bottom: 20px;
+    margin-right: 1000px;
+}
+
+.btn-grupo {
+    background-color: rgb(130, 211, 77);
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 2px black;
+}
+
+.btn-grupo:active {
+    background-color: rgb(130, 211, 77);
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px black inset;
+}
+
+/* boton de la caja de los grupos */
+.btn-caja-grupo {
+    margin-top: 12px;
+}
+
+/* transicion */
+
+.aparecer-enter {
+    /*ENTRADA*/
+    opacity: 0;
+}
+.aparecer-enter-active {
+    /*TRANSCURSO ENTRADA*/
+    transition: opacity 1s;
+}
+.aparecer-leave-to {
+    /*ENTRADA*/
+    opacity: 0;
+}
+.aparecer-leave-active {
+    transition: opacity 1s;
+}
+
+/* estilos de la caja de clientes */
+.contenido_clientes {
+    position: absolute;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    padding: 10px;
+    border: 3px solid #000000;
+    z-index: 3;
+    line-height: 25px;
+}
+
+
+
+/* estilos de la tabla */
+.contenido_clientes td {
+    padding: 4px;
+    background: #e8edff;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+}
+
+.contenido_clientes tr:hover td {
+    background: #d0dafd;
+    color: #339;
+}
+
+.contenido_clientes h1{
+    background-color: blanchedalmond;
+    padding:5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* titulo de los cards de los grupos */
+.numero_grupo{
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 10px;
+}
+.card-descrpcion{
+    background-color:rgb(196, 208, 224);
+    padding: 20px;
+    border-radius: 50px;
+    line-height:initial;
+    font-weight: bold;
+    color: black;
+    box-shadow: 2px 2px 2px #000000;
+}
+
+.caja_reservas{
+    width: 100%;
+}
+
+.color{
+    background-color: red;
+}
+.color2{
+    background-color: rgb(130, 211, 77);
+}
+
+/* estilos reserva */
+.seccion_detalles_habitacion{
+    display: flex;
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}
+.seccion_detalles_habitacion2{
+    display: flex;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+}
+.content_detalles_habitacion{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.seccion_detalles_habitacion  h3{
+    /* border: 1px solid #333232;
+     */
+    box-shadow: 0px 2px 3px  #ddd7d7;
+    max-width: 250px;
+    min-width: 50px;
+background-color: white;
+    min-height: 50px ;
+    max-height: 200px;
+    padding: 5px;
+    /* background-color: rgb(169, 187, 202); */
+}
+.seccion_detalles_habitacion2 h3{
+    /* border: 1px solid #333232;
+     */
+    box-shadow: 0px 2px 3px  #ddd7d7;
+    max-width: 250px;
+    min-width: 50px;
+background-color: white;
+    min-height: 50px ;
+    max-height: 200px;
+    padding: 5px;
+    /* background-color: rgb(169, 187, 202); */
+}
+.seccion_detalles_habitacion h2{
+    box-shadow: 0px 2px 3px  #ddd7d7;
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    font-size: 50px;
+    background-color: white;
+}
+.seccion_detalles_habitacion2 h2{
+    box-shadow: 0px 2px 3px  #ddd7d7;
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    font-size: 50px;
+    background-color: white;
+}
+
+.seccion_detalles_habitacion .precio{
+    width: 180px;
+}
+.seccion_detalles_habitacion2 .precio{
+    width: 180px;
+}
+
+.des{
+    overflow-y: scroll;
+}
+.seccion_detalles_habitacion  label{
+    font-size: 20px;
+    color: black;
+}
+.seccion_detalles_habitacion2 label{
+    font-size: 20px;
+    color: black;
+}
+
+.numero{
+    background-color: white;
+    box-shadow: 2px 2px 2px #000000;
+    width: 40px;
+    text-align: center;
+}
+
+.datos_grupos{
+    display: flex;
+}
+.c-clientes{
+    width: 200px;
+    margin-left: 40px;
+    overflow-y: scroll;
+    height: 150px;
+    border-top: 1px solid rgb(197, 194, 194);
+    border-bottom: 1px solid rgb(197, 194, 194);
+
+}
+
+.c-grupo{
+    margin-top: 7px;
+
+}
+
+.reserva{
+    display: flex;
+}
+
+.c-date
+{
+    margin-left: 50px;
+}
+.c-date p{
+    border: 1px solid #948d8d;
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.h1-dg{
+    margin-top: 40px;
+}
+.content-pagos{
+    margin-top: 10px;
+    display: flex;
+}
+
+.content-pagos .form-group{
+    margin-left: 20px;
+}
+
+.figura img{
+    border-radius: 15px ;
+}
+.h1-principal{
+    font-size: 20px;
+    color: white;
+    background: #9dff00;
+    padding: 15px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #bdb7b7;
+}
+
+.c-comentarios{
+    /* background-color: #5bc1f8; */
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    border-radius: 50px;
+    min-width:400px;
+    max-width: 700px;
+    min-height: 200px;
+    max-height: 800px;
+    padding: 55px;
+    margin: 20px;
+    box-shadow:10px 10px 5px black;
+    margin-left: 125px;
+
+}
+
+.c-comentarios span{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+.c-comentarios p{
+    padding: 10px;
+    background-color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border-radius: 20px;
+}
+
+.t-comment{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+#btn-eliminar-comment{
+    background-color: #ff2626;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 2px 2px 4px black;
+}
+#btn-eliminar-comment:active{
+    background-color: #b32b2b;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0px 0px 1px black;
+}
+
+#buscadorH{
+    margin-left: 20px;
+}
+.activo-a{
+    background-color: white;
+    padding: 12px;
+    color: rgb(64, 155, 207);
+    font-size: 15px;
+    border-radius: 5px;
+    line-height: 44px;
+
+}
+.activo-a:hover{
+    background-color: rgb(20, 59, 143);
+    color: white;
+}
+.activo-a:active{
+    background-color: rgb(20, 59, 143);
+    color: white;
+}
+
+
+.table{
+    background-color: #009efd;
+}
